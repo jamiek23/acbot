@@ -1,0 +1,20 @@
+{
+  "name": "acbot",
+  "version": "1.0.0-dev",
+  "description": "Autism Central's own bot minion",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "Jamie Knight <jamie@theknights.org.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "luxon": "^1.25.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0"
+  }
+}
